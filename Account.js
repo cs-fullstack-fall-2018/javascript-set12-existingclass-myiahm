@@ -25,3 +25,5 @@ class Account{
 function main() {
 
 }
+
+main();
