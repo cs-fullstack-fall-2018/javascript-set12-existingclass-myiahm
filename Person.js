@@ -22,7 +22,15 @@ class Person {
 }
 
 function main() {
+    var person1 = new Person(name, age, weight, height);
+    alert(person1.bodyMassIndex());
+    var person2 = new Person(name, age, weight, height);
+    alert(person2.bodyMassIndex());
 
+
+    var personArray = [];
+    personArray.push(person1);
+    personArray.push(person2);
+    personArray[1].printPerson()
 }
-
 main();

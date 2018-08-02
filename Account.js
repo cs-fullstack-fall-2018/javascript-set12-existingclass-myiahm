@@ -22,7 +22,18 @@ class Account{
     }
 }
 
-function main() {
+function main()
+{
+var account = new Account(myAccount, 100.0);
+    account.deposit(20.0);
+    alert(account.balance())
+    var mattsAccount = new Account(MattsAccount ,1000);
+    mattsAccount.withdrawal(100.0);
+    alert(mattsAccount.balance());
+    var myAccount = new Account(MyAccount,0);
+    myAccount.deposit(100.0)
+    alert(myAccount.balance())
+
 
 }
 
